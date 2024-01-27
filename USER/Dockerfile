@@ -1,4 +1,4 @@
 FROM almalinux:8
 RUN useradd raviteja
 USER raviteja
-echo "Hello" > /tmp/hello.txt
+RUN echo "Hello" > /tmp/hello.txt
