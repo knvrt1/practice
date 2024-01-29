@@ -1,3 +1,3 @@
 FROM almalinux:8
-CMD ["facebook.com"]
+CMD ["facebook.com";]
 ENTRYPOINT ["ping","-c5";]
