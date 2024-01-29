@@ -1,3 +1,3 @@
-ARG Student
-ARG Course
-RUN echo "Learning ${Course} and student is ${Student}"
+ARG TRAINER
+ARG COURSE
+RUN echo "Course is: ${COURSE}, trainer is: ${TRAINER}" 
